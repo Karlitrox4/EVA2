@@ -1,8 +1,8 @@
 package eva2;
 
-public class Electrodomestico { // Heredable, averiguar cómo hacer
+public class Electrodomestico { // Heredable, averiguar cÃ³mo hacer
 
-	public final static int PRECIO_BASE = 100000; //estas 4 weas son constantes
+	public final static int PRECIO_BASE = 100000; //estas 4 son constantes
 	public static final String COLOR = "blanco";
 	public static final char CONSUMO_ENERGETICO = 'F';
 	public static final int PESO = 5;
@@ -68,7 +68,7 @@ public class Electrodomestico { // Heredable, averiguar cómo hacer
 		return varTemp;
 	}
 
-	public int precioFinal() {		// precioFinal(): según el consumo energético, aumentara su precio, y según su
+	public int precioFinal() {		// precioFinal(): segÃºn el consumo energÃ©tico, aumentara su precio, y segÃºn su
 			int fin = 0;		
 						
 			switch (consumoEnergetico)	{
@@ -108,7 +108,7 @@ public class Electrodomestico { // Heredable, averiguar cómo hacer
 				else if(peso>=80){
 		            fin+=100;
 		        }
-				return precioBase+fin;		//tamaño también. 
+				return precioBase+fin;		//tamaÃ±o tambiÃ©n. 
 			}
 			
 	
